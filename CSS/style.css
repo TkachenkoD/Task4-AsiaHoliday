@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1020px;
+    background-image: url("background.png");
+    background-repeat: repeat;
+}
+
+div{
+    font-family: Tahoma;
+}
+
+h2{
+    margin-bottom:3px;
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+    color: #424c43;
+    text-shadow: 0 0 1px #a0a4a2;
+}
+
+a{
+    font-family: Tahoma;
+    text-shadow: 0 0 1px #bfbfbf;
+}
+
+.container{
+    width: 1000px;
+    height: 996px;
+    margin: 0 auto;
+    background: white;
+    border-bottom: 3px solid #031d28;
+    box-shadow:  0 0 15px rgba(0,0,0,0.5)
+}
+
+.header{
+    width: 1000px;
+    height: 445px;
+    background: #ffffff;
+}
+
+.logo{
+    width: 1000px;
+    height: 175px;
+    border-bottom: 1px solid #128aa7;
+
+}
+
+.contacts{
+    width: 124px;
+    height: 72px;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 10px;
+    float: right;
+    line-height: 1.5;
+    font-size:9px;
+    color: #128aa7;
+}
+
+.flags{
+    padding-top: 110px;
+    padding-right: 50px;
+}
+
+.flags li{
+    width: 42px;
+    height: 42px;
+    float: right;
+    margin-left: 7px;
+    margin-right: 1px;
+    list-style: none;
+    line-height: 0.7;
+    text-align: center;
+}
+
+.flags a{
+    font-size: 8px;
+    color: #128aa7;
+}
+
+.logoPalm{
+      width: 30%;
+      height: 160px;
+      padding: 15px 0px 0px 15px;
+      float: left;
+}
+
+.photo{
+    width: 1000px;
+    height: 237px;
+    border-bottom: 1px solid #128aa7;
+}
+
+.menu{
+    max-width: 1000px;
+    height: 30px;
+    margin: 0;
+    display: block;
+    background-color: #343434;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.75);
+    border-bottom: 1px solid #000;
+}
+
+.menu li{
+    width: 13.8%;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center;;
+    background: #343434;
+    list-style: none;
+}
+
+.menu li a{
+    padding: 7px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px
+  }
+
+.menu a:hover{
+    background: #343434;
+  }
+
+.submenu{
+    width: 135px;
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 13px;
+    background-color: #343434;
+  }
+
+.submenu li{
+    display: block;
+}
+
+.submenu li a{
+    padding: 7px;
+    display: block;
+    color: white;
+    background-color: #343434;
+    text-decoration: none;
+  }
+
+.submenu li a:hover{
+    text-decoration: underline;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.clearfix:after{
+    content: ' ';
+    clear: both;
+    display: block;
+    float: none;
+}
+
+.main{
+    padding-top: 1px;
+}
+
+.info{
+    width: 21%;
+    height: 535px;
+    padding: 15px 15px 0px 15px;
+    float: left;
+    background-color: #edeef0;
+    border-right: 1px solid #c7cacf;
+}
+
+.text{
+    width: 58%;
+    height: 550px;
+    margin: 0 auto;;
+    background-color: #ffffff;
+}
+
+.news{
+    width: 21%;
+    height: 535px;
+    padding: 15px 15px 0px 15px;
+    float: right;
+    background: #edeef0;
+    border-left: 1px solid #c7cacf;
+}
+
+.columnText{
+    list-style: none;
+    line-height: 1.5;
+}
+
+.columnText a{
+    text-decoration: none;
+    color: #424c43;
+}
+
+.footer{
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 2.0;
+}
